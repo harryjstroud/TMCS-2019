@@ -6,8 +6,9 @@
 1. *Pre-Processing*  
 Take a file in xyz or pdb file format and extract the coordinates data into an array that can be used by the processing team.
 2. *Processing*   
-Use PCA available in sci-kit learn to process
+Use PCA available in sci-kit learn to process Cartesian coordinates of input data. 
 3. *Visualization/Plotting*  
+Plot a reduced dimensional chemical pathway in 2D and 3D.
 
 ### Phase II: Project new molecular dynamics trajectory of the “training” system into the defined reduced dimensional space
 1. *Pre-Processing*  
