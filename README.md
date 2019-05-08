@@ -54,7 +54,7 @@ Wednesday 15th May (DRG, JB, SH, AJB, DS, BW)
 * 15:45 coffee
 * 16:00 [Testing software and catching errors](testing/README.md) ([slides](testing/slides.pdf)) - JB/DRG
 * 17:00 Overview of the four hackathon projects
-    * JB - Brownian motion on a 2d lattice with pyGlet graphics (presentation information?)
+    * JB - Brownian motion on a 2d graph with pyGlet graphics ([description](hackathon/drunk-simulator/drunk-simulator.md))
     * DS - Aesthetic style transfer using neural nets (presentation information?)
     * SH/RW/AJB - Interactive molecular dynamics in VR (iMD-VR) 
       * RW/AJB - Code-your-own iMD-VR molecular simulations (presentation information?)
