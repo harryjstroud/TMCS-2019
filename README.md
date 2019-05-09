@@ -57,7 +57,7 @@ Wednesday 15th May (DRG, JB, SH, AJB, DS, BW)
     * JB - Brownian motion on a 2d graph with pyGlet graphics ([description](hackathon/drunk-simulator/drunk-simulator.md))
     * DS - Aesthetic style transfer using neural nets (presentation information?)
     * SH/RW/AJB - Interactive molecular dynamics in VR (iMD-VR) 
-      * RW/AJB - Code-your-own iMD-VR molecular simulations [presentation](https://github.com/davidglo/TMCS-2019/tree/master/hackathon/imd-vr)
+      * RW/AJB - Code-your-own iMD-VR molecular simulations ([description](hackathon/imd-vr/becca.md))
       * SH/AJB - Dimensionality reduction of iMD-VR data (presentation information?)
 * 17:45 Pub. Students should take this opportunity to organize themselves into their project groups
 
