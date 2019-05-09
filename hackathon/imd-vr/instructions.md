@@ -54,9 +54,11 @@ with open(outputFile, 'w') as f:
 1. This section is focused on i) editing the script which contains all of the information that NarupaXR needs to be able to visualise your system and ii) making selections and getting to grips with molecular manipulation in VR. First, download the server file which is needed to be able to launch NarupaXR [here] **need to add the file!!!**. This is a very basic version of the server script - there are many things which can be added to change your experience in VR. Check out the VR documentation [here](https://intangiblerealities.gitlab.io/narupaXR/md__user_guide__user_guide.html) to see what else can be added to this file! *hint: how can you record what pathways you are going to generate in VR?* Save your server file in a 
 
 2. Now that you have your server file you are ready to launch your VR simulation! This can be done by navigating to the programme itch, then clicking on NarupaXR, then Launch -> Server and VR. Once in VR, you are free to play around with your simulation! You will notice that there are two types of mode: Interaction Mode and Selection Mode. Interaction Mode allows you to (you guessed it) interact with your simulation, whereas Selection mode allows you to select and change various parts of your system. Try doing the following things in Selection Mode:
-i) Select oseltamivir and group all the atoms together
-ii) Colour in residues 70 and 71 a different colour
-iii) Make the remaining protein backbone rigid and a different color
-iv) Choose different renderers (i.e. ball and stick etc.) for each of the selections mentioned above
+
+* Select oseltamivir and group all the atoms together
+* Colour in residues 70 and 71 a different colour
+* Make the remaining protein backbone rigid and a different color
+* Choose different renderers (i.e. ball and stick etc.) for each of the selections mentioned above
+
 Have fun! See what selections and trajectories you can generate. 
 
