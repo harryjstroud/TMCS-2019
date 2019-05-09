@@ -3,10 +3,10 @@ This course in focused on creating a virtual reality simulation of the protein *
 
 ## Useful Terminology 
 * NarupaXR - Software produced by the Glowacki Group at the University of Bristol, for running molecular simulations and interacting with them using Virtual Reality
-* Amber/AmberTools
+* Amber/AmberTools - 
 * OpenMM -
-* VMD
-* pdb file - 
+* VMD - Common visualiser for viewing molecular trajectories in a variety of formats
+* pdb file - Standard file format for storing protein structures, containing atom positions, bonds and information about which amino acids are present
 * prmtop file - 
 * inpcrd file - 
 * xml file - 
