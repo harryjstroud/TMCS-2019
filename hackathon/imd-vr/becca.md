@@ -6,10 +6,10 @@ This course in focused on creating a virtual reality simulation of the protein *
 * Amber/AmberTools - 
 * OpenMM -
 * VMD - Common visualiser for viewing molecular trajectories in a variety of formats
-* pdb file - Standard file format for storing protein structures, containing atom positions, bonds and information about which amino acids are present
+* pdb file - File format for storing protein structures, containing atom positions, bonds and information about which amino acids are present
 * prmtop file - 
 * inpcrd file - 
-* xml file - 
+* xml file - Standard file format for storing information. HMTL (language used to write web pages) is an example of XML.
 **More to add later...**
 
 ## Set-up
