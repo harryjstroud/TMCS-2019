@@ -1,5 +1,5 @@
 # Code-your-own iMD-VR molecular simulations
-This course in focused on creating a virtual reality simulation of the protein-ligand system (blah blah).
+This course in focused on creating a virtual reality simulation of the protein **abietadiene synthase**. 
 
 ## Useful Terminology 
 * NarupaXR -
@@ -20,7 +20,7 @@ For this course, you will need the following packages installed (which can be do
 
 ## Instructions
 
-1. First, choose a protein-ligand system from the [PDB database](https://www.rcsb.org/) and then download the pdb
+1. First, go onto the PDB database and download the pdb for abietadiene synthase [PDB database](https://www.rcsb.org/structure/3s9v) 
 
 2. Now that we have chosen our system, we have to clean it up and make sure it is parameterised correctly! To do this, we will use AmberTools 19. Make sure you have installed AmberTools19, which can be done through [cuda](http://ambermd.org/GetAmber.php)
 
