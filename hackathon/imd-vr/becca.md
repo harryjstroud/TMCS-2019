@@ -2,7 +2,7 @@
 This course in focused on creating a virtual reality simulation of the protein **abietadiene synthase**. 
 
 ## Useful Terminology 
-* NarupaXR -
+* NarupaXR - Software produced by the Glowacki Group at the University of Bristol, for running molecular simulations and interacting with them using Virtual Reality
 * Amber/AmberTools
 * OpenMM -
 * VMD
