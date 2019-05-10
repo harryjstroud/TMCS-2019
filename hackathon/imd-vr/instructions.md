@@ -34,11 +34,11 @@ For this course, you will need the following packages installed:
 
 1. In this section, you will take .prmtop and .inpcrd files generated in Amber for the neuraminidase-oseltamivir system and convert them into files that NarupaRX can understand. The Amber files you will need (3NSS.prmtop and 3NSS.inpcrd) are [here](https://github.com/davidglo/TMCS-2019/tree/master/hackathon/imd-vr). For this section, you will need to write your own python script which calls OpenMM, high performance toolkit for molecular simulation. You can [download OpenMM through anaconda here](https://anaconda.org/omnia/openmm).
 
-2. Once you have installed OpenMM, you can now start writing your Now you are sure your system looks okay, you are ready to make your python script that creates the neccessary files to put your system into NarupaXR! This is done by running a *very small* amount of molecular dynamics (MD) through OpenMM to create a new coordinate (.pdb) file and topology (.xml). The OpenMM documentation provides a introduction on how to write a script to run MD [using Amber files](http://docs.openmm.org/latest/userguide/application.html#using-amber-files). 
+2. Once you have installed OpenMM, you can now start writing your python script that creates the neccessary files to put your system into NarupaXR. This is done by running a *very small* amount of molecular dynamics (MD) through OpenMM to create a new coordinate (.pdb) file and topology (.xml). The OpenMM documentation provides a introduction on how to write a script to run MD [using Amber files](http://docs.openmm.org/latest/userguide/application.html#using-amber-files). 
 
 You should use their example script as a guide, but you are encourgaed to investigate each of the parameters and change them around - the documentation does a good job of explaining what each part of the script does. For example, as the system has no explicit solvent molecules, you should add something that adds some implicit solvent to the system. 
 
-**Note that the OpenMM script in the documentation only gives an output pdb file. To generate an output .xml file, the following lines of code will have to be added to the end of your script**
+**Note that the OpenMM example script in the documentation only gives an output pdb file. To generate an output .xml file, the following lines of code will have to be added to the end of your script**
 ```
 outputFile = 'systemname.xml'
 system_xml = mm.XmlSerializer.serialize(system)
@@ -48,12 +48,14 @@ with open(outputFile, 'w') as f:
 
 3. Once your script runs and you get an output .xml and .pdb file, you are ready to put your system into VR. The VR is split into two parts: the *frontend* and the *server*. The frontend is the part which visualises the system you have sent to the VR. The server is the part which actually reads in the files you want to visualise. To be able to see your molecule in VR you must send all of the information about it to the server in a file which wraps everything together - an example of a very basic version is [here](https://github.com/davidglo/TMCS-2019/blob/master/hackathon/imd-vr/vr_openmm_template.xml). Add the path to your files and then look at the [documentation](https://intangiblerealities.gitlab.io/narupaXR/md__user_guide__user_guide.html) to see if you can add/modify any parts of this script.
 
+
 ### Part 3: Manipulation in NarupaXR 
-*steps 1 and 2 do not depend on eachother and can be performed in either order*
 
-1. This section is focused on i) editing the script which contains all of the information that NarupaXR needs to be able to visualise your system and ii) making selections and getting to grips with molecular manipulation in VR. First, download the server file which is needed to be able to launch NarupaXR [here] **need to add the file!!!**. This is a very basic version of the server script - there are many things which can be added to change your experience in VR. Check out the VR documentation [here](https://intangiblerealities.gitlab.io/narupaXR/md__user_guide__user_guide.html) to see what else can be added to this file! *hint: how can you record what pathways you are going to generate in VR?* Save your server file in a 
+1. This section is focused on i) editing the script which contains all of the information that NarupaXR needs to be able to visualise your system and ii) making selections and getting to grips with molecular manipulation in VR. First, navigate to the the programme itch, NarupaXR, and then click on show local files. Then navigate to server/Assets/Simulations and copy a version of the file Tamilfu_Neuraminidase.xml to your laptop. 
 
-2. Now that you have your server file you are ready to launch your VR simulation! This can be done by navigating to the programme itch, then clicking on NarupaXR, then Launch -> Server and VR. Once in VR, you are free to play around with your simulation! You will notice that there are two types of mode: Interaction Mode and Selection Mode. Interaction Mode allows you to (you guessed it) interact with your simulation, whereas Selection mode allows you to select and change various parts of your system. Try doing the following things in Selection Mode:
+This is a very basic version of the server script - there are many things which can be added to change your experience in VR. Check out the VR documentation [here](https://intangiblerealities.gitlab.io/narupaXR/md__user_guide__user_guide.html) to see what else can be added to this file! *hint: how can you record what pathways you are going to generate in VR?* **Once you have finished learning about this file and editing it, make sure you save it back in the itch Simulations folder under then name 3NSS_yourname.xml**
+
+2. Now that you have your server file you are ready to launch your VR simulation! This can be done by navigating to the programme itch, then clicking on NarupaXR, then Launch -> Server and VR. Once in VR, you are free to play around with your simulation! You will notice that there are two types of mode: Interaction Mode and Selection Mode. Interaction Mode allows you to (you guessed it) interact with your simulation, whereas Selection mode allows you to select and change various parts of your system. Whilst in Interaction mode, try undocking and redocking your drug, or unfolding the protein. Whilst in Selection Mode have a go at the following things:
 
 * Select oseltamivir and group all the atoms together
 * Colour in residues 70 and 71 a different colour
@@ -61,4 +63,6 @@ with open(outputFile, 'w') as f:
 * Choose different renderers (i.e. ball and stick etc.) for each of the selections mentioned above
 
 Have fun! See what selections and trajectories you can generate. 
+
+### If you have any questions, please do not hesitate to ask Becca or Alex! 
 
