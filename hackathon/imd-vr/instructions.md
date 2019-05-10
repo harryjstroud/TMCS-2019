@@ -19,7 +19,7 @@ For this course, you will need the following packages installed:
 * VMD
 
 ## Instructions
-### Step 1: Parameterising your molecule  
+### Part 1: Parameterising your molecule  
 
 1. The first step in being able to visualise a system in VR is making sure your system is parameterised correctly. You must go to the [PDB database](https://www.rcsb.org/) and download the neuraminidase and oseltamivir system, which has the pdb code 3NSS.
 
@@ -30,7 +30,7 @@ For this course, you will need the following packages installed:
 4. Once you have successfully created new Amber topology (.prmtop) and coordinate (.inpcrd) files for your system, you should check that the system looks sensible by checking it in VMD (for example, by highlighting certain parts of the system separately, such as the protein and the ligand). A useful introductory guide to VMD is given [here](https://chryswoods.com/dynamics/visualisation/mouse.html).
 
 
-### Step 2: Writing OpenMM Scripts 
+### Part 2: Writing OpenMM Scripts 
 
 1. In this section, you will take .prmtop and .inpcrd files generated in Amber for the neuraminidase-oseltamivir system and convert them into files that NarupaRX can understand. The Amber files you will need for this section are [here]**need to add files**. For this section, you will need to write your own python script which calls OpenMM, high performance toolkit for molecular simulation. You can [download OpenMM through anaconda here](https://anaconda.org/omnia/openmm).
 
@@ -48,7 +48,7 @@ with open(outputFile, 'w') as f:
 
 3. Once your script runs and you get an output .xml and .pdb file, you are ready to put your system into VR. The VR is split into two parts: the *frontend* and the *server*. The frontend is the part which visualises the system you have sent to the VR. The server is the part which actually reads in the files you want to visualise. To be able to see your molecule in VR you must send all of the information about it to the server in a file which wraps everything together - an example of a very basic version is [here](https://github.com/davidglo/TMCS-2019/blob/master/hackathon/imd-vr/vr_openmm_template.xml). Add the path to your files and then look at the [documentation](https://intangiblerealities.gitlab.io/narupaXR/md__user_guide__user_guide.html) to see if you can add/modify any parts of this script.
 
-### Step 3: Manipulation in NarupaXR 
+### Part 3: Manipulation in NarupaXR 
 *steps 1 and 2 do not depend on eachother and can be performed in either order*
 
 1. This section is focused on i) editing the script which contains all of the information that NarupaXR needs to be able to visualise your system and ii) making selections and getting to grips with molecular manipulation in VR. First, download the server file which is needed to be able to launch NarupaXR [here] **need to add the file!!!**. This is a very basic version of the server script - there are many things which can be added to change your experience in VR. Check out the VR documentation [here](https://intangiblerealities.gitlab.io/narupaXR/md__user_guide__user_guide.html) to see what else can be added to this file! *hint: how can you record what pathways you are going to generate in VR?* Save your server file in a 
