@@ -32,7 +32,7 @@ For this course, you will need the following packages installed:
 
 ### Part 2: Writing OpenMM Scripts 
 
-1. In this section, you will take .prmtop and .inpcrd files generated in Amber for the neuraminidase-oseltamivir system and convert them into files that NarupaRX can understand. The Amber files you will need for this section are [here]**need to add files**. For this section, you will need to write your own python script which calls OpenMM, high performance toolkit for molecular simulation. You can [download OpenMM through anaconda here](https://anaconda.org/omnia/openmm).
+1. In this section, you will take .prmtop and .inpcrd files generated in Amber for the neuraminidase-oseltamivir system and convert them into files that NarupaRX can understand. The Amber files you will need (3NSS.prmtop and 3NSS.inpcrd) are [here](https://github.com/davidglo/TMCS-2019/tree/master/hackathon/imd-vr). For this section, you will need to write your own python script which calls OpenMM, high performance toolkit for molecular simulation. You can [download OpenMM through anaconda here](https://anaconda.org/omnia/openmm).
 
 2. Once you have installed OpenMM, you can now start writing your Now you are sure your system looks okay, you are ready to make your python script that creates the neccessary files to put your system into NarupaXR! This is done by running a *very small* amount of molecular dynamics (MD) through OpenMM to create a new coordinate (.pdb) file and topology (.xml). The OpenMM documentation provides a introduction on how to write a script to run MD [using Amber files](http://docs.openmm.org/latest/userguide/application.html#using-amber-files). 
 
