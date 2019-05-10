@@ -1,14 +1,14 @@
 # Code-your-own iMD-VR molecular simulations
-This course in focused on creating a virtual reality simulation of the protein-ligand system **neuraminidase and oseltamivir**. The group will be split into 3, where each person will start at a different section in the workflow. You will have ~3 hours to complete each section. 
+This course in focused on creating a virtual reality simulation of the protein-ligand system **neuraminidase and oseltamivir**. The group will be split into 3, where each person will start at a different section in the workflow. You will have ~3 hours to complete each section, before moving on to the next section. If you encounter problems, don't hesitate to ask Becca or Alex for guidance. 
 
 ## Useful Terminology 
 * NarupaXR - Software produced by the Glowacki Group at the University of Bristol, for running molecular simulations and interacting with them using Virtual Reality
-* Amber/AmberTools - 
-* OpenMM -
+* Amber/AmberTools - The collective name for a suite of programmes that allow users to carry out molecular dynamics simulations, particularly on biomolecules
+* OpenMM - A high performance toolkit for molecular simulation
 * VMD - Common visualiser for viewing molecular trajectories in a variety of formats
 * pdb file - File format for storing protein structures, containing atom positions, bonds and information about which amino acids are present
-* prmtop file - 
-* inpcrd file - 
+* prmtop file - The topology file for the system of interest which includes the following kind of information: connectivity, atom names, atom types, residue names, and charges
+* inpcrd file - The coordinate file for the system
 * xml file - Standard file format for storing information. HMTL (language used to write web pages) is an example of XML.
 **More to add later...**
 
