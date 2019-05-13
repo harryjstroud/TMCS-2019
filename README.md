@@ -58,7 +58,7 @@ Wednesday 15th May (DRG, JB, SH, AJB, DS, BW)
     * DS - Aesthetic style transfer using neural nets (presentation information?)
     * SH/RW/AJB - Interactive molecular dynamics in VR (iMD-VR) 
       * RW/AJB - Code-your-own iMD-VR molecular simulations ([description](hackathon/imd-vr/becca.md))
-      * SH/AJB - Dimensionality reduction of iMD-VR data (presentation information?)
+      * SH/AJB - Dimensionality reduction of iMD-VR data ([description](hackathon/dimensionality-reduction/dimensionality-reduction.md))
 * 17:45 Pub. Students should take this opportunity to organize themselves into their project groups
 
 Thursday 16th May (DRG, JB, SH, AJB, DS, BW)
@@ -67,7 +67,7 @@ Thursday 16th May (DRG, JB, SH, AJB, DS, BW)
     * group 1 led by JB - [description](hackathon/drunk-simulator/drunk-simulator.md) 
     * group 2 led by DS - repo/info 
     * group 3 led by RW/AJB - repo/info 
-    * group 4 led by SH/AJB - repo/info
+    * group 4 led by SH/AJB - [description](hackathon/dimensionality-reduction/dimensionality-reduction.md)
 * 18:00 - 19:00 pizza/wine party!
 
 Friday 17th May (DRG, JB, SH, AJB, DS, BW)
