@@ -1,4 +1,4 @@
-# Simulating a drunk outbreak
+# Random walk on a graph -- Simulating a drunk outbreak
 
 You've got a brilliant idea coming back from the pub: you will create a startup
 that maintain a network of public toilets, and you will charge the city council

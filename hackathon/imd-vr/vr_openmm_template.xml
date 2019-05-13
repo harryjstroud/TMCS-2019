@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Simulation Name="### NAME OF SIMULATION HERE ###">
+  <SystemProperties>
+    <SimulationBoundary SimulationBox="20,20,20" PeriodicBoundary="true"/>
+    <Thermostat Type="BerendsenThermostat" EquilibriumTemperature="300" BerendsenCoupling="0.008" />
+    <Integrator Type="Verlet" TimeStep="0.001" />
+  </SystemProperties>
+  <Topology>
+    <Templates>
+      <Residue Name="### INSERT RESIDUE NAME HERE ###">
+	  <File Centre="true" Path="### INSERT PATH TO PDB OF COMPLEX HERE ###"/>
+       <ForceFields>
+          <InteractiveGaussianForceField GradientScaleFactor="500" />
+          <OpenMMForceField SystemFile="### INSERT PATH TO XML OF COMPLEX HERE ###">
+          </OpenMMForceField>
+        </ForceFields>
+      </Residue>
+    </Templates>
+    <Spawners>
+      <InstanceSpawner Name="### NAME OF SIMULATION HERE ###" Template="### NAME OF SIMULATION HERE ###" Count="1" />
+    </Spawners>
+  </Topology>
+</Simulation>

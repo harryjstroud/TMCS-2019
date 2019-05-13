@@ -54,20 +54,20 @@ Wednesday 15th May (DRG, JB, SH, AJB, DS, BW)
 * 15:45 coffee
 * 16:00 [Testing software and catching errors](testing/README.md) ([slides](testing/slides.pdf)) - JB/DRG
 * 17:00 Overview of the four hackathon projects
-    * JB - Brownian motion on a 2d graph with pyGlet graphics ([description](hackathon/drunk-simulator/drunk-simulator.md))
+    * JB - Brownian motion on a 2d graph with pyGlet graphics ([slides](hackathon/drunk-simulator/drunk-simulator.pdf))
     * DS - Aesthetic style transfer using neural nets (presentation information?)
     * SH/RW/AJB - Interactive molecular dynamics in VR (iMD-VR) 
-      * RW/AJB - Code-your-own iMD-VR molecular simulations (presentation information?)
-      * SH/AJB - Dimensionality reduction of iMD-VR data (presentation information?)
+      * RW/AJB - Code-your-own iMD-VR molecular simulations ([description](hackathon/imd-vr/becca.md))
+      * SH/AJB - Dimensionality reduction of iMD-VR data ([description](hackathon/dimensionality-reduction/dimensionality-reduction.md))
 * 17:45 Pub. Students should take this opportunity to organize themselves into their project groups
 
 Thursday 16th May (DRG, JB, SH, AJB, DS, BW)
 
 * 10:00 - 18:00 hackathon
-    * group 1 led by JB - repo/info 
+    * group 1 led by JB - [description](hackathon/drunk-simulator/drunk-simulator.md) 
     * group 2 led by DS - repo/info 
     * group 3 led by RW/AJB - repo/info 
-    * group 4 led by SH/AJB - repo/info
+    * group 4 led by SH/AJB - [description](hackathon/dimensionality-reduction/dimensionality-reduction.md)
 * 18:00 - 19:00 pizza/wine party!
 
 Friday 17th May (DRG, JB, SH, AJB, DS, BW)
