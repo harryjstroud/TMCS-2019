@@ -176,7 +176,7 @@ Add the calculateTriangleVertices() to the triangleClass definition, and rework 
 
 If you are really stuck, the example scripts are here:
 * [4a/drawTriangle.py](4a/1c-drawTriangle.py)
-* [4a/triangleClass.py](4a/triangleClass.py)
+* [4a/triangleClass.py](4a/1c-triangleClass.py)
 
 ## Exercise 4b
 
