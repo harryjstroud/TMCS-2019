@@ -71,10 +71,10 @@ Different languages and platforms have their own IDE tools. For example, OSX dev
 
 One of the most popular IDEs for Python is called PyCharm - this is going to be our preferred way of writing python during this course. It's a little more complicated to set up a simple hello World program in an IDE like PyCharm, but it's totally worth it for lots of reasons. Follow the steps below to get going:
 
-1) make a directory called /helloTest
+1) make a directory called helloTest
 2) open PyCharm
 3) On the Welcome screen, click Create New Project
-4) specify that the project should live in /helloTest
+4) specify that the project should live in helloTest
 5) be sure to choose the local anaconda python interpreter (py36) as your python interpreter. For example, mine lives at /anaconda/envs/py36/bin/python). If you're unsure exactly where your anaconda py36 interpreter lives, it's easy to find out from witin the py36 environment by typing the following command:
 ```
 $ which python
