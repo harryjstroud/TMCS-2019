@@ -17,9 +17,9 @@ Once you've placed the files in the directory, you need to tell Git that it shou
     $ git add --all
 
 Once you've added your files, follow the instructions in Schiffman video, and carry out the following sequence of steps: 
-(1) git commit your changes to your local TMCS-2019 repository
-(2) do a git pull, ensuring that any changes which others may have made to the remote TMCS-2019 Github master repository are merged with changes in your local repository
-(3) do a git push, so that your (merged) local repository shows up in the remote TMCS-2019 Github master repository
+1. git commit your changes to your local TMCS-2019 repository
+2. do a git pull, ensuring that any changes which others may have made to the remote TMCS-2019 Github master repository are merged with changes in your local repository
+3. do a git push, so that your (merged) local repository shows up in the remote TMCS-2019 Github master repository
 
 You can determine whether you have managed to push your changes to the remote TMCS-2019 Github master repository by inspecting [the TMCS-2019/studentProjects folder](https://github.com/davidglo/TMCS-2019/tree/master/studentProjects). If you've done it correctly, you should see that your firstnameSurname folder, which contains the appropriate files required to run your game.
 
