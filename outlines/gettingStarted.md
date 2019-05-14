@@ -1,13 +1,13 @@
 # Getting Started with Python
 
 ## Setup
-1. Make sure you have python installed. I suggest you use [Anaconda for python 3.6](https://www.continuum.io/downloads).
-    * First, install [Anaconda for python 3.6](https://www.continuum.io/downloads) on your machine
-    * Second, Create a conda environment called py36 & install python 3.6
+1. Make sure you have python installed. I suggest you use [Anaconda for python 3.7](https://www.anaconda.com/distribution/).
+    * First, install [Anaconda for python 3.7](https://www.anaconda.com/distribution/) on your machine
+    * Second, Create a conda environment called py37 & install python 3.7
     * Then activate the conda environment
 ```
-$ conda create -n py36 python=3.6 anaconda
-$ source activate py36
+$ conda create -n py37 python=3.7 anaconda
+$ conda activate py37
 ```
 2. you should then install [pyglet](https://bitbucket.org/pyglet/pyglet/wiki/Download) (we've noted some bugs with the latest 
 issue of pyglet when debugging in PyCharm, so for the purposes of this workshop we will use pyglet version 1.2.4)
@@ -74,8 +74,8 @@ One of the most popular IDEs for Python is called PyCharm - this is going to be 
 1) make a directory called helloTest
 2) open PyCharm
 3) On the Welcome screen, click Create New Project
-4) specify that the project should live in helloTest
-5) be sure to choose the local anaconda python interpreter (py36) as your python interpreter. For example, mine lives at /anaconda/envs/py36/bin/python). If you're unsure exactly where your anaconda py36 interpreter lives, it's easy to find out from witin the py36 environment by typing the following command:
+4) specify that the project should live in /helloTest
+5) be sure to choose the local anaconda python interpreter (py37) as your python interpreter. For example, mine lives at /anaconda/envs/py37/bin/python). If you're unsure exactly where your anaconda py37 interpreter lives, it's easy to find out from witin the py37 environment by typing the following command:
 ```
 $ which python
 ```

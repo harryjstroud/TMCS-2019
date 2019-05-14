@@ -6,14 +6,14 @@ Writing a program involves creating and manipulating data, which are held in var
     $ meaningOfLife = 42.0
     $ mysticalSign = 19.0
     $ keyToTheMeaningOfLife = meaningOfLife/mysticalSign
-    $ print keyToTheMeaningOfLife
+    $ print(keyToTheMeaningOfLife)
     2.2105
 
 Another example of using variables could also involve strings. For example:
 
     $ a = "hello "
     $ b = "world"
-    $ print a + b
+    $ print(a + b)
     hello world
 
 Note here how we had to add an extra space after "hello". Typing and working with variables one-by-one like this is easy, but would be very time-consuming and prone to error if you have a program that uses thousands or millions of variables. Containers allow you to group variables together. The simplest container is a list.
@@ -26,42 +26,42 @@ Lists, which are also called arrays or vectors, provide a simple list of variabl
 
 would initialize a list with four elements. To access items in the list we use square brackets:
 
-    $ print testList[0]
+    $ print(testList[0])
     14
 and
 
-    $ print testList[1]
+    $ print(testList[1])
     7
 
 and
 
-    $ print testList[2]
+    $ print(testList[2])
     28
 
 and
 
-    $ print testList[3]
+    $ print(testList[3])
     42
 
 Note that element "0" of the list in fact denotes the first element of the list. In python, you can also work from the back of the list
 
-    $ print testList[-1]
+    $ print(testList[-1])
     42
 
 printing the last item.
 
-    $ print testList[-2]
+    $ print(testList[-2])
     28
 
 printing the second to last item, etc. If you access an item that doesn't exist, then you get an error.
 
-    $ print testList[4]
+    $ print(testList[4])
 
 gives an "index out of range" error.
 
 To get the number of items in the list, we have to use "len"
 
-    $ print len(testList)
+    $ print(len(testList))
     4
 
 as we have four things in the list.
@@ -69,7 +69,7 @@ as we have four things in the list.
 We can also change the value of an item by setting it equal to a new value
 
     $ testList[0] = 20
-    $ print testList
+    $ print(testList)
     [20, 7, 28, 42]
 
 The previous code we looked at (pyGlet-drawLine.py), uses some lists. For example
@@ -106,13 +106,13 @@ testList.append(27)
 ```
 adds "27" to the list, i.e., 
 
-    $ print testList
+    $ print(testList)
     [27]
 
 We can append as many values as we want.
 
     $ testList.append(42)
-    $ print testList
+    $ print(testList)
     [27,42]
 
 We can also remove values from a list. For example
@@ -183,12 +183,12 @@ Dictionaries in python are represented using curly brakets
 
 Here I am storing four key-value pairs. I am storing the value "meeow", and saying that this is accessed using the key "cat". 
 
-    $ print a["cat"]
+    $ print(a["cat"])
     'meeow'
 
 Similarly, I have stored the value "woof", and have said that this is accessed using the key "dog"
 
-    $ print a["dog"]
+    $ print(a["dog"])
     'woof'
 
 Like lists, dictionaries also come with a lot of useful functions, which we can show using the autocomplete functionality in PyCharm 
@@ -207,24 +207,24 @@ Either way we can inspect the functions available for processing data in lists:
 
 There's a nice overview of [dictionary methods at this link] (https://docs.python.org/2/library/stdtypes.html#mapping-types-dict). One particularly useful method is the keys() function, which returns a list of all of the keys
 
-    $ print a.keys()
+    $ print(a.keys())
     ['horse', 'dog', 'cat']
 
 while the values() function returns the list of all of the values
 
-    $ print a.values()
+    $ print(a.values())
     ['neigh', 'woof', 'mieow']
 
 We can change items in the dictionary by setting them equal to a new value
 
     $ a["dog"] = "bark"
-    $ print a
+    $ print(a)
     {'cat': 'mieow', 'dog': 'bark', 'horse': 'neigh'}
 
 We can also use this to add new items to the dictionary
 
     $ a["fish"] = "bubble"
-    $ print a
+    $ print(a)
     {'cat': 'mieow', 'dog': 'bark', 'fish': 'bubble', 'horse': 'neigh'}
 
 ### Looping over a dictionary
@@ -233,7 +233,7 @@ As the keys() function returns the list of all keys in a dictionary, the best wa
 
     $ keys = a.keys()
     $ for i in range(0,len(keys)):
-    $     print keys[i], " == ", a[keys[i]]
+    $     print(keys[i], " == ", a[keys[i]])
     
     horse == neigh
     dog == bark
@@ -254,7 +254,7 @@ Either way, we see the following methods
     count    index    pop      reverse  
 
     $ keys.sort()
-    $ print keys
+    $ print(keys)
     ['cat', 'dog', 'fish', 'horse']
 
     $ for i in range(0,len(keys)):
@@ -270,13 +270,13 @@ Either way, we see the following methods
 Like lists, dictionaries can contain any type of data, and you can also nest dictionaries and lists inside each other.
 
     $ a = { "cat" : 5, "dog" : ["walk", "feed", "sleep"], "fish" : {"type" : "goldfish"} }
-    $ print a["cat"]
+    $ print(a["cat"])
     5
-    $ print a["dog"]
+    $ print(a["dog"])
     ['walk', 'feed', 'sleep']
-    $ print a["dog"][1]
+    $ print(a["dog"][1])
     'feed'
-    $ print a["fish"]["type"]
+    $ print(a["fish"]["type"])
     'goldfish'
 
 You can also create the above dictionary item-by-item
@@ -285,7 +285,7 @@ You can also create the above dictionary item-by-item
     $ a["cat"] = 5
     $ a["dog"] = [ "walk", "feed", "sleep" ]
     $ a["fish"] = { "type" : "goldfish" }
-    $ print a
+    $ print(a)
     {'cat': 5, 'dog': ['walk', 'feed', 'sleep'], 'fish': {'type': 'goldfish'}}
 
 
@@ -294,11 +294,11 @@ You can also create the above dictionary item-by-item
 Finally, we will finish this session by noting that strings are actually lists. A string is a list container of letters.
 
     $ a = "hello world"
-    $ print len(a)
+    $ print(len(a))
     11
-    $ print a[0]
+    $ print(a[0])
     'h'
-    $ print a[-1]
+    $ print(a[-1])
     'd'
 
 We can loop over all letters in a string using
@@ -320,36 +320,25 @@ We can loop over all letters in a string using
 Python provides a nice shorthand for looping over every item in a list
 
     $ for letter in a:
-    $    print letter
+    $    print(letter)
 
 will print the same output.
 
-You can also create a string from a list of letters. For this, you need to import and use the "string" module from python
+You can also create a string from a list of letters.
 
-    $ import string
     $ a = ['h', 'e', 'l', 'l', 'o']
-    $ print a
+    $ print(a)
     ['h', 'e', 'l', 'l', 'o']
 
-    $ s = string.join(a)
-    $ print s
+    $ separator = ' '
+    $ s = separator.join(a)
+    $ print(s)
     'h e l l o'
 
-Note that string.join has added a space between each letter. Using help() we can see how to remove this space
+This joins the elements of "a" around the string in "separator". That string can be any string, including an empty one.
 
-    $ help(string.join)
-    Help on function join in module string:
-    
-    join(words, sep=' ')
-        join(list [,sep]) -> string
-    
-        Return a string composed of the words in list, with
-        intervening occurrences of sep.  The default separator is a
-        single space.
-    
-        (joinfields and join are synonymous)
-
-    $ s = string.join(a, "")
+    $ separator = ''
+    $ s = separator.join(a)
     $ s
     'hello'
 

@@ -70,16 +70,16 @@ We can do the same thing for colors.py:
 
     def printAvailableColors():
         """This function prints all available colors within our dictionary"""
-        print '\tyellow'
-        print '\tblue'
-        print '\tred'
-        print '\tgreen'
-        print '\tsienna'
-        print '\thotpink'
+        print('\tyellow')
+        print('\tblue')
+        print('\tred')
+        print('\tgreen')
+        print('\tsienna')
+        print('\thotpink')
 
     if __name__== "__main__":
-        print 'executing colors.py as the main routine'
-        print 'we have definitions of:'
+        print('executing colors.py as the main routine')
+        print('we have definitions of:')
         printAvailableColors()
 
 We now get better documentation when using help()

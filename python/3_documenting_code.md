@@ -3,7 +3,7 @@
 
 In the [last session](2_functions_and_modules.md) you learned how to package code into functions and to package functions into modules (also called libraries). Functions and modules let you easily design, write and package your code so that it is easy to understand and easily reusable. However, to share the code, and in order to help others (and even yourself, several months or years later) to really understand how it works, you need to add documentation. The general rule of thumb is that YOU CAN NEVER HAVE ENOUGH DOCUMENTATION.
 
-You have already seen the documentation which available from within PyCharm's autocomplete function, and also using python's "help()" functionality. For example, lets use ipython to look at the documentation for the "string" module.
+You have already seen the documentation which available from within PyCharm's autocomplete function, and also using Python's "help()" functionality. For example, lets use ipython to look at the documentation for the "string" module.
 
     $ ipython
     $ import string
@@ -43,7 +43,7 @@ you get
     DATA
         color = {'blue': [0.0, 0.0, 1.0], 'green': [0.0, 1.0, 0.0], 'hotpink':...
 
-Not great... It is very important when programming in any language that we provide full documentation for all of the functions and modules. In python, this is achieved by adding documentation strings to each part of the script. These are strings that are placed at the beginning of the function or module.
+Not great... It is very important when programming in any language that we provide full documentation for all of the functions and modules. In Python, this is achieved by adding documentation strings (colloquially known as 'docstrings') to each part of the script. These are strings that are placed at the beginning of the function or module.
 
     $ def documentedFunction(a):
     $     """Here is the documentation string for this function"""
@@ -70,16 +70,16 @@ We can do the same thing for colors.py:
 
     def printAvailableColors():
         """This function prints all available colors within our dictionary"""
-        print '\tyellow'
-        print '\tblue'
-        print '\tred'
-        print '\tgreen'
-        print '\tsienna'
-        print '\thotpink'
+        print('\tyellow')
+        print('\tblue')
+        print('\tred')
+        print('\tgreen')
+        print('\tsienna')
+        print('\thotpink')
 
     if __name__== "__main__":
-        print 'executing colors.py as the main routine'
-        print 'we have definitions of:'
+        print('executing colors.py as the main routine')
+        print('we have definitions of:')
         printAvailableColors()
 
 We now get better documentation when using help()

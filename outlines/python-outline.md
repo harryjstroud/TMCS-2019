@@ -1,6 +1,6 @@
 ## Basic Python
 ### Objectives
-1. Understand the basic syntax and datastructures in Python 3.6:
+1. Understand the basic syntax and datastructures in Python 3.7:
     1. Atomic data types: floats, ints, complex, strings.
     2. Collections: lists, list comprehensions, dictionaries, generators.
     3. Control structures: if, for, while, functions, lambda functions.
@@ -20,6 +20,6 @@ Already a python expert?  Try some [Project Euler](https://projecteuler.net/) ch
 
 ## Resources: 
 1. [Python tutorial](https://docs.python.org/3/tutorial/index.html) (use as a reference, not an actual tutorial)
-2. [Anaconda documentation](http://conda.pydata.org/docs/using/index.html) (Useful for understanding environments and package management). 
+2. [Anaconda documentation](https://conda.io/projects/conda/en/latest/user-guide/index.html) (Useful for understanding environments and package management). 
 
 

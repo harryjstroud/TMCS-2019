@@ -7,11 +7,11 @@ One reason is that modules don't protect their data very well -i.e., other peopl
 
 As an example, lets imagine someone using code in the [colors.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/colors.py) module. It would be really easy for somebody to write something like the following from somewhere in the pyglet routines:
 
-    colors.color['blue']=[0.5,0.5,0.5]
+    colors.color['blue'] = [0.5, 0.5, 0.5]
 
 This will turn into grey an entry which we had intended to be 'blue'. Or they could do something like 
 
-    colors.color['blue']=[1.0, 0.0, 0.0]
+    colors.color['blue'] = [1.0, 0.0, 0.0]
 
 where now they've assigned the tag 'blue' to a color that is actually red! The problem in both of these examples is that the "colors" dictionary is visible, and anybody can change its value whenever they want. This might seem like a good thing, but in complex code projects, this is the sort of thing that can lead to hard-to-find and extremely subtle bugs that can drive you mad.
  

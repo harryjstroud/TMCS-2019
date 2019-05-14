@@ -188,15 +188,15 @@ One final point: it's often the case that the code within a module definition is
     color['hotpink'] = [1.0, 0.412, 0.706]
 
     def printAvailableColors():
-        print '\tyellow'
-        print '\tblue'
-        print '\tred'
-        print '\tgreen'
-        print '\tsienna'
-        print '\thotpink'
+        print('\tyellow')
+        print('\tblue')
+        print('\tred')
+        print('\tgreen')
+        print('\tsienna')
+        print('\thotpink')
 
-    print 'executing colors.py as the main routine'
-    print 'we have definitions of:'
+    print('executing colors.py as the main routine')
+    print('we have definitions of:')
     printAvailableColors()
 
 Say that (for some reason - maybe we are teaching a software course), we want the code in color.py to run as a standalone package. When the code runs, we want to print the information indicated in the final three lines. It's easy enough to run this as a standalone application in PyCharm. Right-click "colors.py" in the PyCharm explorer, and then click 'Run colors'. You should see console output which reads
@@ -215,8 +215,8 @@ This might be useful in some contexts, but it also might be annoying to have it 
     if __name__ == "__main__":
         # only run this code if colors.py is run as the top-level function
         # ignore if colors.py is imported as a module 
-        print 'executing colors.py as the main routine'
-        print 'we have definitions of:'
+        print('executing colors.py as the main routine')
+        print('we have definitions of:')
         printAvailableColors()
 
 Now if I run "colors.py" in PyCharm, I get the information printed.
