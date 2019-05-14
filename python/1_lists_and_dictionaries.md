@@ -395,7 +395,7 @@ Now we are going to play around a little bit with dictionaries and nesting. The 
 
     glColor3f(1, 1, 0)  # specify colors
 
-This code specifies in OpenGL RGB format what color OpenGL should use for the lines it's about to draw. Each entry is a float ('3f' means 'three floats') specifies the amount of R, the amount of G, and the amount of B, where the possible value of each entry can range from 0 to 1. You can [construct lots of different colors using this simple format](python/color/color.pdf).
+This code specifies in OpenGL RGB format what color OpenGL should use for the lines it's about to draw. Each entry is a float ('3f' means 'three floats') specifies the amount of R, the amount of G, and the amount of B, where the possible value of each entry can range from 0 to 1. You can [construct lots of different colors using this simple format](color/color.pdf).
 
 What we're going to do now is use a dictionary to make the arguments to glColor3f() more human readable. For example, it would enable us to choose our aesthetic a lot quicker if we could specify a color by entering code that looked something like
 
@@ -414,7 +414,7 @@ Your job now is to formulate a nested structure of dictionaries/lists, which all
 
     class graphicsWindow(pyglet.window.Window):
 
-Once you've figured out how to do this, play around with a few different colors for your triangle. It should be as easy as simply editing the string which indicates color. Feel free to get creative. [The link at this page gives lots of different examples of various colors in '3f' format](python/color/color.pdf). If you are really stuck, then there is an example completed script available to read in [1b/drawTriangle-refactor2.py](1b/drawTriangle-refactor2.py).
+Once you've figured out how to do this, play around with a few different colors for your triangle. It should be as easy as simply editing the string which indicates color. Feel free to get creative. [The link at this page gives lots of different examples of various colors in '3f' format](color/color.pdf). If you are really stuck, then there is an example completed script available to read in [1b/drawTriangle-refactor2.py](1b/drawTriangle-refactor2.py).
 
 ### Exercise 1c
 
