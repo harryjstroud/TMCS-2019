@@ -1,4 +1,4 @@
-# CDT Software Course - TMCS 2019
+# TMCS CDT Software Course - TMCS 2019
 
 Tues 14th - Fri 17th, May 2019
 
