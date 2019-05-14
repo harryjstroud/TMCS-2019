@@ -74,7 +74,7 @@ One of the most popular IDEs for Python is called PyCharm - this is going to be 
 1) make a directory called helloTest
 2) open PyCharm
 3) On the Welcome screen, click Create New Project
-4) specify that the project should live in /helloTest
+4) specify that the project should live in helloTest
 5) be sure to choose the local anaconda python interpreter (py37) as your python interpreter. For example, mine lives at /anaconda/envs/py37/bin/python). If you're unsure exactly where your anaconda py37 interpreter lives, it's easy to find out from witin the py37 environment by typing the following command:
 ```
 $ which python
