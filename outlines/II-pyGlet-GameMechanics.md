@@ -1,10 +1,12 @@
 # Experiment & play: hack-your-own game mechanics
 
-You've been working hard learning about python now. And along the way you've been building a nice little game engine which has actually gotten quite sophisticated. The point of this section is really just to have fun, hack around, and let your creativity go where it wants! You have the chance to use the stuff that you've learned so far to experiment with and develop the simple game framework that we've been referring to.
+You've been working hard learning about Python now. And along the way you've been building a nice little game engine which has actually gotten quite sophisticated. The point of this section is really just to have fun, hack around, and let your creativity go where it wants! You have the chance to use the stuff that you've learned so far to experiment with and develop the simple game framework that we've been referring to.
 
 There is an excellent & very easy tuturial on basic pyGlet structure which is [available at this link](http://simeonfranklin.com/talk/pyglet/slides.html#slide-1), which you should work your way through. Don't worry about making the game suggested in the final slide of the tutorial. [The official pyGlet documentation](http://pyglet.readthedocs.io/en/pyglet-1.2-maintenance/index.html) also provides a nice overview of all the different stuff you can do with pyGlet.
 
 Do what you want. play around. make mistakes. do something crazy. try rendering the trails that the shapes take as the rotate and translate about the space, or perhaps try adding "sprites" (which are discussed in the [pyglet tutorial](http://simeonfranklin.com/talk/pyglet/slides.html#slide-1). if you want to experiment with sprites for example, then these little *.pngs should be easy to use as sprites ([manby](../python/hackSess/manby.png), [logan](../python/hackSess/logan.png), [essex](../python/hackSess/essex.png)) and might get your creative juices flowing.
+
+There are also lots of great free 2D sprites [here](https://kenney.nl/assets)
 
 # Other things to try
 
