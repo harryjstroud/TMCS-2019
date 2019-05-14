@@ -50,7 +50,7 @@ Wednesday 15th May (DRG, JB, SH, AJB, DS, BW)
 * 14:30 coffee
 * 14:45 Version Control 
     * [Part 2: Remote repos & GIT GUIs](outlines/git-outline.md#part-2) - JB
-    * [Part 3: upload your game projects onto the TMCS-2019 github] (version-control/commit_games.md) - DRG
+    * [Part 3: upload your game projects onto the TMCS-2019 github](version-control/commit_games.md) - DRG
 * 15:45 coffee
 * 16:00 [Testing software and catching errors](testing/README.md) ([slides](testing/slides.pdf)) - JB/DRG
 * 17:00 Overview of the four hackathon projects
