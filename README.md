@@ -44,12 +44,11 @@ Wednesday 15th May (DRG, JB, SH, AJB, DS, BW)
 * 12:30 Lunch
 * 13:30 Version Control 
     * [Part 1: Basic git - structure & commands](outlines/git-outline.md#git-and-version-control) - JB
-* 14:30 coffee
-* 14:45 Version Control 
+* 14:30 Version Control
     * [Part 2: Remote repos & GIT GUIs](outlines/git-outline.md#part-2) - JB
     * [Part 3: upload your game projects onto the TMCS-2019 github](version-control/git-exercise.md) - DRG
-* 15:45 coffee
-* 16:00 [Testing software and catching errors](testing/README.md) ([slides](testing/slides.pdf)) - JB/DRG
+* 16:00 coffee
+* 16:15 [Testing software and catching errors](testing/README.md) ([slides](testing/slides.pdf)) - JB/DRG
 * 17:00 Overview of the four hackathon projects
     * JB - Brownian motion on a 2d graph with pyGlet graphics ([slides](hackathon/drunk-simulator/drunk-simulator.pdf))
     * DS - Aesthetic style transfer using neural nets ([description](hackathon/style-transfer/style-transfer.md))
