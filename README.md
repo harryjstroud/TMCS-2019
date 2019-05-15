@@ -28,9 +28,6 @@ Tuesday 14th May (DRG)
       * [functions & modules](python/2_functions_and_modules.md)
       * [documenting Code](python/3_documenting_code.md)
     * [Basic Principles of Object-Oriented Programming](python/4_object_orientation.md)
-    * Other Potentially useful stuff 
-      * [Python tutorial](https://docs.python.org/3/tutorial/index.html) (use as a reference, not an actual tutorial) 
-      * Already a python expert? Try some [Project Euler](https://projecteuler.net/) challenges.    
 
 * 11:30 coffee
 * 13:00 Lunch
