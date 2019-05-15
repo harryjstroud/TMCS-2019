@@ -9,7 +9,7 @@ Someone who is not terribly good at coding.
 
 HOW TO RUN THE GAME:
 
-To run this program, type "python drawingTwoTriangles.py" into terminal when in the directory where you have saved the game.
+To run this program, type "python psychedelicTriangles.py" into terminal when in the directory where you have saved the game.
 
 Developed using Anaconda
 Pyglet version: 1.3.2
