@@ -35,7 +35,7 @@ An "object" is a particular instantiation of a "class" definition. Sticking with
 
 Ok, enough philosophy for now. The idea of putting together member data and member functions which are important for certain classes of objects is called "Encapsulation". It's a key idea of object orientated programming, and refers to the practice of hiding the data in a Class, with the net result that only the functions which are defined as part of the Class can read or write (change) the data. Not only can this actually result in simpler to use and easier-to-read code which maps onto the problem we're actually trying to solve, but it also enforces practices that are much less likely to get abused by others (or ourselves in the future) when we're coding.
 
-For example, take a look the code [triangleClass-v1.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/triangleClass-v1.py) required to make a very basic "triangle" class:
+For example, take a look the code [triangleClass-v1.py](4/triangleClass.py) required to make a very basic "triangle" class:
 
     class triangleClass:
 
@@ -78,7 +78,7 @@ This piece of Python contains lots of new ideas. Before we explore them, feel fr
 
 "triangleClass", is a example of a Class. Classes are used to package up functions with associated data. As you can see in the help(), we can only see the functions defined in the class. It has several functions, `__init__` (always enclosed on either side by two underscores), which is used to construct a new Object of type triangleClass, and several "set" and "get" functions, each of which is used to either retreive or set triangleClass data members. As you can see, the first argument to each of these functions is "self". "self" is a special variable that is used by the Class to gain access to the data hidden within. 
 
-Lets look again at the source for [triangleClass-v1.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/triangleClass-v1.py)
+Lets look again at the source for [triangleClass-v1.py](4/triangleClass.py)
 
     class triangleClass:
 
