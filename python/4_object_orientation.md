@@ -121,7 +121,7 @@ The constructor takes as input the data which we pass in, and then defines varia
 
 An instantiation of a particular class is called an object. We can construct as many instances (objects) of a class as we want, and each will have its own "self" and its own set of hidden variables. 
 
-So, how do we use the triangleClass in practice - e.g., in our [drawTwoTriangles-refactor2.py](https://github.com/davidglo/boot-camps/blob/2017-TMCS-software/drawTwoTriangles-refactor2.py) code? Let's have a look
+So, how do we use the triangleClass in practice - e.g., in our [drawTwoTriangles-refactor2.py](2b/drawTwoTriangles-refactor2.py) code? Let's have a look
 
 First we must make drawTwoTriangles-refactor2.py aware of our class definition:
 
